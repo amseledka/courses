@@ -7,11 +7,12 @@
   <body>
     <h2>Zaregeestreeruysya na kursee:</h2>
     <form action="signup_action.php" method="POST">
-      Username: <input type="text" name="name" /><br />
       Email: <input type="text" name="email" /><br />
-      Password: <input type="password" name="pword[]" /><br />
-      Password (again): <input type="password" name="pword[]" /><br />
+      Password: <input type="password" name="password" /><br />
       <input type="submit" value="BUD' PATSANOM" />
     </form>
+
+    <a href="index.php">Obratno, telka!</a>
+  
   </body>
 </html>
