@@ -7,6 +7,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "new_post",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/post.php",
+			"settings":
+			{
+				"buffer_size": 1784,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1447,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -32,10 +56,21 @@
 	},
 	"file_history":
 	[
+		"/home/user/courses/index.php",
+		"/home/user/courses/login_action.php",
+		"/home/user/courses/login.php",
+		"/home/user/courses/signup_action.php",
+		"/home/user/courses/signup.php",
+		"/home/user/courses/logout.php",
+		"/home/user/courses/login_success.php",
+		"/home/user/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
+		"/home/user/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/user/.config/sublime-text-2/Packages/User/PHP.sublime-settings",
+		"/home/user/.config/sublime-text-2/Packages/Default/Global.sublime-settings"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
@@ -49,6 +84,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"spaces",
+			"space",
+			"tab",
+			"indent"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -66,8 +105,91 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "new_post",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "includes/post.php",
+					"settings":
+					{
+						"buffer_size": 1784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 624.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 1447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1019,
+								1019
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 48.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -77,7 +199,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 29.0
 	},
 	"layout":
 	{
@@ -112,21 +234,29 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"in",
+				"index.php"
+			],
+			[
+				"sig",
+				"signup.php"
+			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
-	"status_bar_visible": true
+	"side_bar_width": 155.0,
+	"status_bar_visible": false
 }
