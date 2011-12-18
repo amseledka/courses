@@ -8,7 +8,8 @@
     <h2>Zaregeestreeruysya na kursee:</h2>
     <form action="signup_action.php" method="POST">
       Email: <input type="text" name="email" /><br />
-      Password: <input type="password" name="password" /><br />
+      Password: <input type="password" name="pass[]" /><br />
+      Password confirmation: <input type="password" name="pass[]" /><br />
       <input type="submit" value="BUD' PATSANOM" />
     </form>
 

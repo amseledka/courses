@@ -6,13 +6,13 @@
 	mysql_select_db("courses", $con);
 
   $email=$_POST[email];
-  $password=$_POST[password];
+  $password=md5($_POST[password]);
 	$sql= "SELECT * FROM users WHERE email='$email' and password='$password'";
 	$result = mysql_query($sql,$con) or die('Error: ' . mysql_error());
 
   $count=mysql_num_rows($result);
 
-	if ($count==123) {
+	if ($count==1) {
 	session_register("email");
   session_register("password");
   header("location:index.php");

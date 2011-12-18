@@ -7,7 +7,13 @@ $con = mysql_connect('localhost', 'wfuser', '123');
       }
 mysql_select_db("courses", $con);
 
-$pass = md5($_POST[password]);
+if (pass[0]==pass[1]) {
+$pass = md5($_POST[pass[0]]);
+}
+else {
+  echo "Password mismatch";
+}
+
 $sql= "INSERT INTO users (email, password) VALUES ('$_POST[email]', '$pass')";
 
 $result = mysql_query($sql,$con) or die('Error: ' . mysql_error());
