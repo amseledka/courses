@@ -1,7 +1,4 @@
 <?php 
-  /**
-  * 
-  */
   class Model {
 
     $table_name = "";
@@ -28,7 +25,6 @@
       $sql = "UPDATE" . $table_name . "SET" . $field . "=" . $value . "WHERE" . $criteria_field ."=" . $criteria_value;
       $db->query($sql);
     }
-
 
     static function delete($criteria) {
       $sql = "DELETE FROM" . $table_name . "WHERE" . $criteria_field ."=" . $criteria_value;
